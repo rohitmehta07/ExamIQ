@@ -1,0 +1,1 @@
+Elliptic Curve Cryptography offers equivalent security to RSA with significantly smaller key sizes, making ECC ideal for resource constrained devices.

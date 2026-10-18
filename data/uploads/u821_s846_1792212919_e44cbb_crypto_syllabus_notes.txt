@@ -1,0 +1,8 @@
+Unit 1: Data Encryption Standard (DES)
+DES uses a 16-round Feistel network with 56-bit key and S-Boxes to create diffusion and confusion.
+
+Unit 2: Advanced Encryption Standard (AES)
+AES replaces DES with a substitution-permutation network over Galois Field GF(2^8).
+
+Unit 3: Classical Cryptography & Ciphers
+Playfair cipher and Hill cipher use polygraphic substitution with matrix key multiplication mod 26.

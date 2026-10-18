@@ -1,0 +1,263 @@
+{
+  "dataset_evaluation": {
+    "corpus_size": 9,
+    "questions_evaluated": 12,
+    "document_classification": {
+      "sample_size": 9,
+      "accuracy": 0.6667,
+      "precision_macro": 0.4062,
+      "recall_macro": 0.5,
+      "f1_macro": 0.4423,
+      "document_evaluations": [
+        {
+          "filename": "AES_1 (1).pdf",
+          "true_type": "LECTURE_NOTES",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": true
+        },
+        {
+          "filename": "Cryptography and Network Security_1 (1).pdf",
+          "true_type": "LECTURE_NOTES",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": true
+        },
+        {
+          "filename": "Cryptography and Network Security_2 (1).pdf",
+          "true_type": "LECTURE_NOTES",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": true
+        },
+        {
+          "filename": "Data Encryption Standard (2).pdf",
+          "true_type": "LECTURE_NOTES",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": true
+        },
+        {
+          "filename": "Modern Symmetric-Key Ciphers (1).pdf",
+          "true_type": "LECTURE_NOTES",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": true
+        },
+        {
+          "filename": "PQC_1.pdf",
+          "true_type": "HANDWRITTEN_NOTES",
+          "predicted_type": "HANDWRITTEN_NOTES",
+          "confidence": 0.89,
+          "match": true
+        },
+        {
+          "filename": "PQC_Lattices_1.pdf",
+          "true_type": "REFERENCE",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": false
+        },
+        {
+          "filename": "PQC_Lattices_2.pdf",
+          "true_type": "REFERENCE",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.92,
+          "match": false
+        },
+        {
+          "filename": "Semester 5 Mid Sem.pdf",
+          "true_type": "QUESTION_PAPER",
+          "predicted_type": "LECTURE_NOTES",
+          "confidence": 0.75,
+          "match": false
+        }
+      ]
+    },
+    "question_classification": {
+      "sample_size": 12,
+      "type_classification_overlap": 0.6667,
+      "difficulty_accuracy": 0.5833,
+      "difficulty_precision_macro": 0.4074,
+      "difficulty_recall_macro": 0.4444,
+      "difficulty_f1_macro": 0.3862,
+      "question_evaluations": [
+        {
+          "question_id": "CNS-2025-MS-Q1",
+          "true_types": [
+            "Comparison",
+            "Explanation"
+          ],
+          "predicted_types": [
+            "Comparison",
+            "Attack Analysis"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "MEDIUM",
+          "confidence": 0.89
+        },
+        {
+          "question_id": "CNS-2025-MS-Q2",
+          "true_types": [
+            "Explanation",
+            "Diagram"
+          ],
+          "predicted_types": [
+            "Diagram"
+          ],
+          "true_difficulty": "EASY",
+          "predicted_difficulty": "MEDIUM",
+          "confidence": 0.89
+        },
+        {
+          "question_id": "CNS-2025-MS-Q3",
+          "true_types": [
+            "Explanation",
+            "Application"
+          ],
+          "predicted_types": [
+            "Explanation"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "MEDIUM",
+          "confidence": 0.89
+        },
+        {
+          "question_id": "CNS-2025-MS-Q4",
+          "true_types": [
+            "Numerical",
+            "Algorithm"
+          ],
+          "predicted_types": [
+            "Numerical",
+            "Algorithm"
+          ],
+          "true_difficulty": "HARD",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2025-MS-Q5",
+          "true_types": [
+            "Attack Analysis",
+            "Explanation",
+            "Numerical"
+          ],
+          "predicted_types": [
+            "Algorithm",
+            "Attack Analysis",
+            "Explanation"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2025-MS-Q6",
+          "true_types": [
+            "Numerical",
+            "Explanation"
+          ],
+          "predicted_types": [
+            "Numerical",
+            "Algorithm",
+            "Explanation"
+          ],
+          "true_difficulty": "HARD",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q1",
+          "true_types": [
+            "Explanation",
+            "Diagram",
+            "Algorithm"
+          ],
+          "predicted_types": [
+            "Algorithm",
+            "Diagram",
+            "Explanation"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q2",
+          "true_types": [
+            "Explanation",
+            "Algorithm"
+          ],
+          "predicted_types": [
+            "Algorithm",
+            "Explanation",
+            "Long Answer"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q3",
+          "true_types": [
+            "Definition",
+            "Explanation",
+            "Comparison"
+          ],
+          "predicted_types": [
+            "Comparison",
+            "Explanation"
+          ],
+          "true_difficulty": "HARD",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q4",
+          "true_types": [
+            "Comparison",
+            "Explanation"
+          ],
+          "predicted_types": [
+            "Comparison",
+            "Algorithm"
+          ],
+          "true_difficulty": "MEDIUM",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q5",
+          "true_types": [
+            "Explanation",
+            "Algorithm"
+          ],
+          "predicted_types": [
+            "Algorithm",
+            "Explanation"
+          ],
+          "true_difficulty": "HARD",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        },
+        {
+          "question_id": "CNS-2024-ES-Q6",
+          "true_types": [
+            "Explanation",
+            "Comparison",
+            "Algorithm"
+          ],
+          "predicted_types": [
+            "Explanation",
+            "Long Answer"
+          ],
+          "true_difficulty": "HARD",
+          "predicted_difficulty": "HARD",
+          "confidence": 0.87
+        }
+      ]
+    },
+    "note": "Metrics computed mathematically on verified annotations without external artificial hallucination."
+  }
+}

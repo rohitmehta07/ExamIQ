@@ -1,0 +1,7 @@
+EXAMINATION QUESTION PAPER 2025
+
+Q1. [5 Marks] Explain the 16-round Feistel Network architecture of Data Encryption Standard (DES) and discuss the role of S-Boxes.
+
+Q2. [5 Marks] Compare the avalanche effect in Data Encryption Standard (DES) with Triple DES.
+
+Q3. [5 Marks] Encrypt the plaintext 'EXAM' using Hill Cipher with key matrix [3, 2; 5, 7] mod 26.

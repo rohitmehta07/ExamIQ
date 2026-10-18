@@ -1,0 +1,10 @@
+document_id,filename,document_type,is_handwritten,instructor,page_count
+1,AES_1 (1).pdf,LECTURE_NOTES,False,"Dr. Shivangi Shukla, IIIT Pune",41
+2,Cryptography and Network Security_1 (1).pdf,LECTURE_NOTES,False,"Dr. Shivangi Shukla, IIIT Pune",67
+3,Cryptography and Network Security_2 (1).pdf,LECTURE_NOTES,False,"Dr. Shivangi Shukla, IIIT Pune",53
+4,Data Encryption Standard (2).pdf,LECTURE_NOTES,False,"Dr. Shivangi Shukla, IIIT Pune",58
+5,Modern Symmetric-Key Ciphers (1).pdf,LECTURE_NOTES,False,"Dr. Shivangi Shukla, IIIT Pune",49
+6,PQC_1.pdf,HANDWRITTEN_NOTES,True,Course Notes,26
+7,PQC_Lattices_1.pdf,REFERENCE,False,Somitra Sanadhya,27
+8,PQC_Lattices_2.pdf,REFERENCE,False,Somitra Sanadhya,27
+9,Semester 5 Mid Sem.pdf,QUESTION_PAPER,False,IIIT Pune Examination Cell,12

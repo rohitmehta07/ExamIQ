@@ -1,0 +1,9 @@
+Chapter 3: Advanced Encryption Standard (AES) Architecture.
+
+Advanced Encryption Standard (AES) is a symmetric block cipher standardized by NIST in FIPS 197.
+AES processes data blocks of 128 bits using secret key sizes of 128, 192, or 256 bits.
+Each AES round consists of four distinct transformations: SubBytes, ShiftRows, MixColumns, and AddRoundKey.
+SubBytes is an invertible non-linear byte substitution utilizing an 8x8 S-box in Galois Field GF(2^8).
+MixColumns operates on state columns treating each column as a four-term polynomial modulo x^4 + 1.
+Active attacks differ from passive attacks in that active attacks alter the communication stream whereas passive attacks monitor traffic without alteration.
+The Avalanche Effect is a fundamental cryptographic property where a single bit change in plaintext induces changes in over 50 percent of ciphertext bits.

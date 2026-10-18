@@ -1,0 +1,1 @@
+Ray tracing simulates physical behavior of light rays interacting with 3D surfaces.

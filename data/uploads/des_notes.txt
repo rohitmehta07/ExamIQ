@@ -1,0 +1,5 @@
+Data Encryption Standard (DES) employs a 16-round Feistel network architecture.
+DES operates on 64-bit plaintext blocks with an effective 56-bit key length.
+Triple DES (3DES) executes encrypt-decrypt-encrypt (EDE) sequence with 168-bit key strength.
+Block ciphers differ from stream ciphers by encrypting fixed-length blocks rather than continuous bit streams.
+Differential cryptanalysis is an analytical attack analyzing propagation of differences through cipher rounds.

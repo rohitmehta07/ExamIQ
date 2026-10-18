@@ -1,0 +1,7 @@
+Mid-Sem Examination 2024 - Operating Systems (OS2024). Total Marks: 20.
+
+Question 1: Explain the Banker's Algorithm for deadlock avoidance and describe safety test steps. [5 Marks]
+
+Question 2: Differentiate between paging and segmentation with an illustrative memory diagram. [5 Marks]
+
+Question 3: Calculate the average waiting time using Round Robin scheduling with time quantum q = 2. [5 Marks]

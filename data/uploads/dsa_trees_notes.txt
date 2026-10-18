@@ -1,0 +1,1 @@
+Binary Search Trees and AVL Trees provide logarithmic search complexity. Balanced trees prevent worst-case O(n) traversal.
